@@ -4,8 +4,8 @@ from .views import DiscordLoginView
 
 urlpatterns = [
     path(
-        "discord/login/",
+        "discord/register/",
         DiscordLoginView.as_view(),
-        name="discord-login",
+        name="discord-register",
     ),
 ]
